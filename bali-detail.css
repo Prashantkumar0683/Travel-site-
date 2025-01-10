@@ -1,0 +1,220 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay for text contrast */
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    background-color: #FF5A00; /* Bali-themed color */
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #D94F00;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Top Attractions Section */
+#attractions .col-md-4 {
+    padding: 20px;
+}
+
+#attractions img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+#attractions img:hover {
+    transform: scale(1.05);
+}
+
+#attractions h3 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Things to Do Section */
+#things-to-do ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding-left: 0;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#things-to-do li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Accommodation Section */
+#accommodation ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding-left: 0;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#accommodation li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Contact Section */
+#contact form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact .form-label {
+    font-weight: bold;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+#contact button {
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    background-color: #FF5A00;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #D94F00;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+
+    #attractions img {
+        border-radius: 10px;
+    }
+}
+
+/* Special Button Styles */
+.btn-primary {
+    background-color: #FF5A00;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 12px 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #D94F00;
+}
+
